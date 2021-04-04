@@ -1,5 +1,5 @@
 /*
- * File: 1-puts.c
+ * File: 2-printf.c
  * Auth: Erick de Oliveira Pessoa
  */
 #include <stdio.h>
