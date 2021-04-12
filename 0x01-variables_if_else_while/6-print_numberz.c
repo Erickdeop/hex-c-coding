@@ -1,5 +1,5 @@
 /*
- * File: 5-print_numbers.c
+ * File: 6-print_numberz.c
  * Auth: Erick de Oliveira Pessoa
  */
 #include <stdio.h>
@@ -13,8 +13,8 @@ int main(void)
 
 	for (n = 0; n <= 9; n++)
 	{
-		putchar(n)
+		putchar((n % 10) + '0');
 	}
-
+	putchar ('\n');
 	return (0);
 }
