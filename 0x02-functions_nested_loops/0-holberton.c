@@ -1,21 +1,21 @@
 /*
- * File: 2-print_alphabet.c
+ * File: 0-holberton.c 
  * Auth: Erick de Oliveira Pessoa
  */
-#include <stdio.h>
+#include "holberton.h"
 /**
- * main - Prints the alphabet in lowercase
+ * main - Entrada
  * Return: returns always 0
  */
 int main(void)
 {
-	char c;
-
-	for (c = 'a'; c <= 'z'; c++)
+	char *sh = "Holberton";
+	while (*sh)
 	{
-		putchar(c);
+		_putchar(*sh);
+		*sh++;
 	}
-	putchar('\n');
+	_putchar('\n');
 
 	return (0);
 }
