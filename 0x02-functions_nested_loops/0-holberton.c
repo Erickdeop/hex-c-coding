@@ -1,5 +1,5 @@
 /*
- * File: 0-holberton.c 
+ * File: 0-holberton.c
  * Auth: Erick de Oliveira Pessoa
  */
 #include "holberton.h"
@@ -10,6 +10,7 @@
 int main(void)
 {
 	char *sh = "Holberton";
+
 	while (*sh)
 	{
 		_putchar(*sh);
