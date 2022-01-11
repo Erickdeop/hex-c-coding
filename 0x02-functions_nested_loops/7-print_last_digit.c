@@ -17,7 +17,7 @@ int print_last_digit(int n)
 
 	if (div < 0)
 	{
-		div = (-1 * div)
+		div = (-1 * div);
 	}
 
 	_putchar(div+ '0');
