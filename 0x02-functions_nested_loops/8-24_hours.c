@@ -1,15 +1,15 @@
 /*
- * File: 7-print_last_digit.c
+ * File: 8-24_hours.c
  * Auth: Erick de Oliveira Pessoa
  */
 #include "holberton.h"
 /**
- * print_last_digit - prints the last digit of a number
- * @n: number
- * Return: value of last digit
+ * jack_bauer - prints all minutes of the day
+ * @hours = hours, @minutes = minutes
+ * Return: every minute of the day in each line
  */
 
-int print_last_digit(int n)
+int jack_bauer(void)
 {
 	int hours, minutes;
 
