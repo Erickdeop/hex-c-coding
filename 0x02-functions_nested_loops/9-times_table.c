@@ -22,7 +22,7 @@ void times_table(void)
 		for (column = 1; column < 10; column++)
 		{
 			n = (row * column);
-			if ((n / 10) > 10)
+			if ((n / 10) > 0)
 			{
 				_putchar((n / 10) + '0');
 			}
